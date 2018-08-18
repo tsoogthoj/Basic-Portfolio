@@ -1,0 +1,179 @@
+/* 
+
+Same throughout all the pages 
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #bcc6d6;
+    color: #999898;
+    font-size: 110%;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 100%;
+}
+
+header {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    height: 80px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+a:link {
+    color: #999898;
+    transition: transform .2s;
+}
+
+a:visited {
+    color: #999898;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+a:active {
+    color: #999898;
+}
+
+here {
+    color: #999898;
+}
+
+#links {
+    float: right;
+    padding: 22px;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    padding: 27px;
+    font-size: 150%;
+}
+
+.content {
+    background-color: white;
+    position: relative;
+    margin-top: 5%;
+    padding: 20px;
+    height: 80%;
+    overflow: auto;
+    margin-bottom: 70px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    border-top: 5px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    font-size: 70%;
+    position: fixed;
+    bottom: 0;
+}
+
+#copyright {
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+/* 
+
+Changes only for index.html 
+
+*/ 
+
+h1 {
+    font-size: 140%;
+    color: #4aaaa5;
+    padding: 0px 0px 20px 0px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #999898;
+}
+
+#profileimg {
+    position: relative;
+    padding-top: 20px;
+    width: 200px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+
+#p1 {
+    position: relative;
+    padding-top: 20px;
+}
+
+/* 
+
+Changes only for contact.html
+
+*/
+
+#leftcontainer {
+    width: 60%;
+    float: left;
+}
+
+#rightcontainer {
+    float: right;
+    width: 30%;
+    background-color: white;
+    margin-top: 5%;
+    margin-bottom: 70px;
+}
+
+input {
+    width: 100%;
+}
+
+#message {
+    height: 200px;
+}
+
+#textarea {
+    width: 100%;
+}
+#submit {
+    width: 70px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 4px;
+}
+
+.connectimg {
+    padding: 5px;
+    width: 80px;
+    height: 80px;
+}
+/* 
+
+Changes only for Portfolio 
+
+*/
+
+#staytuned {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
